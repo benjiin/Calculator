@@ -21,6 +21,7 @@ namespace Calculator
     public partial class MainWindow : Window
     {
         private string input;
+
         public string Input
         {
             get { return input; }
@@ -60,6 +61,7 @@ namespace Calculator
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
+            
 
         }
 

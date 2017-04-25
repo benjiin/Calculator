@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
         Title="Der beste Taschenrechner ever, allein die Farbe rockt" Height="506" Width="374"
-        Background="Khaki"
+        Background="LightGreen"
         ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
@@ -35,7 +35,7 @@
             <ColumnDefinition Width="70"/>
             <ColumnDefinition Width="30"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Name="textbox2" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="9" Grid.RowSpan="2" Background="Beige" FlowDirection="RightToLeft" FontSize="77" />
+        <TextBlock Name="textbox2" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="9" Grid.RowSpan="2" Text ="0" Background="Beige" FlowDirection="RightToLeft" FontSize="77" />
         <Button Grid.Column="1" Grid.Row="4" Content="7" FontSize="24" Click="Button_Click" />
         <Button Grid.Column="3" Grid.Row="4" Content="8" FontSize="24" Click="Button_Click_1" />
         <Button Grid.Column="5" Grid.Row="4" Content="9" FontSize="24" Height="51" VerticalAlignment="Top" Click="Button_Click_3" />
