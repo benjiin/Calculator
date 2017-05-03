@@ -238,8 +238,9 @@ namespace Calculator
             //+
             number1 = input;
             opearatorSign = '+';
+            textbox2.Text = number1;
+
             input = string.Empty;
-            textbox2.Text = string.Empty;
 
         }
 
